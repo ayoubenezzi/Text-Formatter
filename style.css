@@ -1,0 +1,45 @@
+body {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+p {
+  width: 300px;
+  background-color: #222;
+  color: #fff;
+  height: 80px;
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+  border: 1px solid #555;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.firstBtn {
+  text-transform: uppercase;
+}
+
+.secondBtn {
+  text-transform: lowercase;
+}
+
+.thirdBtn {
+  text-transform: capitalize;
+}
+
+.fourthBtn {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fifthBtn {
+  font-style: italic;
+}
+
+.sixthBtn {
+  text-decoration: underline;
+}
